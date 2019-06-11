@@ -1,0 +1,384 @@
+body ,ul ,img ,h1 ,p ,h2 ,h3 ,figure ,h4 ,h5 ,h6
+
+{
+	margin: 0;
+	padding: 0;
+}
+body
+{
+	font-family: sans-serif;
+}
+.container
+{
+	width: 80%;
+	margin: 0 auto;
+}
+
+header
+{
+	background-image:url(../img/banner-bg.jpg);
+	background-size: cover;
+	height: 600px;
+	margin-bottom: 7%;
+}
+figure.figure-header
+{
+	padding-top: 2%;
+}
+nav
+{
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+}
+ul li
+{
+	display: inline-block;
+	padding: 3%;
+	color: #ffffff;
+}
+section.header-paragraph
+{
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+}
+section.header-paragraph-content
+{
+	margin-top: 9%;
+}
+section.header-paragraph h1
+{
+	font-size: 60px;
+	color: #ffffff;
+}
+section.header-paragraph p
+{
+	color: #ffffff;
+	text-transform: capitalize;
+}
+section.header-paragraph button
+{
+	border: none;
+	background-color: #ffffff;
+	color: #000000;
+	height: 40px;
+	width: 120px;
+	margin-top: 3%;
+	font-weight: 700;
+	text-transform: capitalize;
+}
+/*-----------------------feature----------------------*/
+section.feature
+{
+	text-align: center;
+	margin-bottom: 7%;
+}
+section.feature h2
+{
+	font-size: 45px;
+}
+section.feature p
+{
+	font-size: 15px;
+	color: gray;
+}
+/*-----------------------------------feature-gallery-------------------------*/
+section.feature-gallery
+{
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr 1fr;
+	align-content: center;
+	text-align: center;
+	grid-gap: 2%;
+	margin-bottom: 5%;
+}
+.feature-one ,.feature-two ,.feature-three ,.feature-four
+{
+	box-shadow:0px 4px 13px 0px #aaaaaa;
+}
+section.feature-gallery figure
+{
+	padding-top: 15%;
+    padding-bottom: 15%;
+}
+figcaption
+{
+	border-top: 1px solid #aaaaaa45;
+	background-color: #faf9ff;
+	padding-top: 6%;
+	padding-bottom: 6%;
+}
+figcaption h3
+{
+	padding-bottom: 3%;
+}
+figcaption p
+{
+   padding-bottom: 3%;
+   font-size: 12px;
+	color: gray;
+}
+figcaption button
+{
+	border: none;
+	background-color: #ffffff;
+	color: #000000;
+	height: 40px;
+	width: 120px;
+	margin-top: 3%;
+	font-weight: 700;
+	
+
+}
+/*-------------------------globally----------------------------------*/
+section.globally
+{
+	display: grid;
+	grid-template-columns: 50% 50%;
+	margin-bottom: 5%;
+}
+figure.globally-image
+{
+	background-image: url(../img/about-img.png);
+	background-size: contain;
+	height: 400px;
+}
+section.globally-pargraph
+{
+	padding: 2%;0
+	padding-top: 10%;
+}
+section.globally-pargraph p.globaly-p
+{
+	font-size: 15px;
+	margin-bottom: 1%;
+	color: dodgerblue;
+}
+section.globally-pargraph h3
+{
+	width: 70%;
+    font-size: 37px;
+    margin-bottom: 3%;
+    margin-top: 3%;
+}
+section.globally-pargraph h6
+{
+	font-size: 20px;
+	margin-bottom: 2%;
+	color: gray;
+}
+section.globally-pargraph p
+{
+	font-size: 15px;
+	margin-bottom: 2%;
+	color: gray;
+}
+section.globally-pargraph button
+{
+	border: none;
+	background-color: #fabfff;
+	color: #000000;
+	height: 40px;
+	width: 120px;
+	margin-top: 3%;
+	font-weight: 700;
+	background-image: linear-gradient(to right, rgb(130, 143, 255), rgb(208, 149, 255));
+
+}
+.video-gradian
+{
+	position: relative;
+}
+.video-gradian-edit
+{
+    background-image: linear-gradient(to right, rgba(130, 143, 255, 0.65), rgba(208, 149, 255, 0.56));
+	width: 500px;
+	height: 359px;
+    position: absolute;
+    top: 42px;
+}
+.video-gradian i
+{
+	line-height: 8;
+    vertical-align: middle;
+    padding-left: 52%;
+    color: #ffffff;
+    font-size: 45px;
+}
+/*---------------------------some-feature----------------------------*/
+section.some-feature
+{
+	background-image: url(../img/feature-bg.jpg);
+	height: 600px;
+	text-align: center;
+	padding-top: 5%;
+	margin-bottom: 7%;
+}
+section.some-feature h3
+{
+	font-size: 40px;
+	color: #ffffff;
+	margin-bottom: 2%;
+}
+section.some-feature p
+{
+	color: #ffffff;
+}
+section.some-feature-gallery
+
+{
+	display: grid;
+	grid-template-rows: 1fr 1fr;
+	grid-gap: 10%;
+	margin-top: 5%;
+}
+.first-grid ,.second-grid
+{
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+	grid-gap: 2%;
+}
+section.content-edit
+{
+	background-color: #ffffff;
+	border-radius: 10px;
+	padding: 6%;
+}
+section.content-edit h4
+{
+	font-size: 25px;
+	margin-bottom: 5%;
+	margin-top: 3%;
+}
+section.content-edit p
+{
+	color: gray;
+	font-size: 15px;
+	margin-bottom: 6%;
+}
+section.content-edit i
+{
+	padding-right: 3%;
+}
+/*---------------------------------------bar--------------------*/
+section.bar
+{
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+	margin-bottom: 7%;
+	text-align: center;
+}
+section.bar figure img
+{
+	filter: grayscale();
+}
+/*-----------------------travel---------------------------------*/
+section.travel
+{
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	grid-gap: 2%;
+	margin-bottom: 5%;
+}
+section.travel button
+{
+	border: none;
+	background-color: #fabfff;
+	color: #000000;
+	height: 40px;
+	width: 120px;
+	margin-top: 3%;
+	font-weight: 700;
+	background-image: linear-gradient(to right, rgb(130, 143, 255), rgb(208, 149, 255));
+
+}
+section.travel h4
+{
+	font-size: 25px;
+	padding: 3% 0;
+}
+section.travel p
+{
+	color: gray;
+	font-size: 15px;
+	margin-bottom: 3%;
+}
+section.travel label
+{
+	color: gray;
+	font-weight: 600;
+}
+/*-------------------------------footer-------------------------------*/
+footer
+{
+	background-image: url(../img/footer-bg.jpg);
+	height: 400px;
+}
+footer .top-footer
+{
+	display: grid;
+	grid-template-columns: 1fr 2fr 1fr;
+	padding-top: 5%;
+}
+footer .top-footer ul li
+{
+	display: block;
+}
+.end-part
+{
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr 1fr;
+	grid-gap: 5px;
+}
+.middle-part 
+{
+	color: #ffffff;
+}
+.middle-part h4
+{
+	padding-bottom: 3%;
+	font-size: 25px;
+}
+.middle-part p
+{
+	padding-bottom: 3%;
+}
+.middle-part input
+{
+	padding: 10px 5px;
+	width: 200px;
+	border-radius: 25px;
+	border: 0
+}
+.middle-part button
+{
+	padding: 10px 5px;
+	width: 160px;
+	border-radius: 25px;
+	border: 0;
+	background-image: linear-gradient(to right, rgb(130, 143, 255), rgb(208, 149, 255));
+
+}
+.down-footer
+{
+	display: grid;
+	grid-template-columns: 3fr 1fr;
+	padding-top: 7%;
+	justify-content: space-between
+}
+.down-footer p ,.down-footer ul li
+{
+	display: inline-block;
+	color: #ffffff;
+}
+.down-footer ul li
+{
+	width: 30px;
+	height: 30px;
+	background-color: #000000;
+}
+.down-footer ul li i
+{
+	padding-top: 18%;
+	padding-left: 30%;
+	text-align: center;
+}
